@@ -6,7 +6,7 @@ cotacoesForm.addEventListener('submit', (event) => {
     event.preventDefault()
     const ativo = document.querySelector('input').value
 
-    fetch(`http://localhost:3000/cotacoesGet?ativo=${ativo}`).then((response) => {
+    fetch(`/cotacoesGet?ativo=${ativo}`).then((response) => {
         response.json().then( (data) => {
             const spanError = document.querySelector('span')
             const table = document.querySelector('table')
