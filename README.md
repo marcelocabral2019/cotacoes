@@ -1,7 +1,7 @@
-#Projeto cotacoes
+# Projeto cotacoes
 
-#para executar configure as dependencias
+# para executar configure as dependencias
 `npm i`
 
-#depois
+# depois
 `npm start`
